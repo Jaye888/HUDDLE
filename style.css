@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    margin: 0 auto;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topmost{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10em;
+    background-image: url(bg-hero-desktop.svg);
+}
+button{
+    border-radius: 20px;
+    border-width: 0ch;
+    width: 10em;
+    height: 3em;
+    cursor: grab;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#one{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+#two{
+    background-color: white;
+    color: black;
+    float: right;
+}
+h2 h3{
+    font-family: 'Poppins', sans-serif; 
+}
+/* .middle{
+    
+} */
+
+#first-img, #second-img, #third-img, #fourth-img{
+    height: 15em;
+}
+#fifth-img{
+    width: 20%;
+}
+#sixth-img, #seventh-img, #eighth-img{
+    height: 0.5em;
+}
+#lorem{
+    width: 40%;
+}
+.middle-one{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5%;
+    /* box-shadow: 3%; */
+}
+.middle-two{
+    display: flex;
+    flex-direction: row;
+}
+.middle-three{
+    display: flex;
+    flex-direction: row;
+}
+.bottom{
+    display: flex;
+    background-color: hsl(192, 100%, 9%);
+}
+.bottom-mid{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+#nav-one, #nav-two{
+    display: flex;
+    flex-direction: column;
+    color: hsl(193, 100%, 96%);    
+}
+p, a{
+    color: hsl(208, 11%, 55%);
+}
+h2, h3{
+    color: hsl(192, 100%, 9%);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.left, .middle-one-left, .middle-two-left, .middle-three-left{
+    text-align: left;
+    width: 30%;
+}
+.topmost{
+    padding: 5%;
+    column-gap: 20%;
+}
+.middle-one{
+    padding: 5%;
+    column-gap: 20%;
+}
+.middle-two{
+    padding: 5%;
+    column-gap: 20%;   
+}
+.middle-three{
+    padding: 5%;
+    column-gap: 20%;   
+}
+@media screen and (max-width:1440px) {
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:375px) {
+    main{
+        display: flex;
+        flex-direction: column;}
+    }
